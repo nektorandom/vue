@@ -1,0 +1,9 @@
+*.sql
+*.xml
+*.zip
+*.log
+cron.lockfile
+/.cache
+/.idea
+/.c9
+/.c9sdk
