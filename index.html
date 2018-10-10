@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Vue</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
 
+    <div class="j_app main_wrapper">
+        <h2>{{ message }}</h2>
+
+        <span v-bind:title="tooltip">
+            Very soon new project! I hope on friday. Definitely with vue.js :)
+        </span>
+
+        <span v-if="seen">Can't wait</span>
+
+        <div>
+            <ol v-for="">
+                <li></li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
